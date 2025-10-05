@@ -112,7 +112,7 @@ const AboutPage = () => {
             <h2 className='font-bold text-2xl mb-14'>EXPERIENCE</h2>
             <div className="flex justify-between">
               <div className='w-1/3 flex flex-col gap-4'>
-                <h3 className='bg-white p-3 font-bold rounded-b-lg rounded-s-lg'>Bachelor's degree in CS</h3>
+                <h3 className='bg-white p-3 font-bold rounded-b-lg rounded-s-lg'>Bachelor&apos;s degree in CS</h3>
                 <p className='ps-2 italic text-sm w-full'>I graduated from faculty of Computers and information technology with grade: (very good).</p>
                 <span className='text-red-500 text-sm font-semibold'>2019 - 2023</span>
                 <span className='bg-white p-1 text-sm font-semibold rounded w-fit'>Mansoura University</span>
