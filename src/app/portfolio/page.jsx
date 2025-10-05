@@ -39,7 +39,7 @@ const myWorksData = [
     id: 2,
     title: 'Restaurant',
     desc: 'Developed a modern and fully responsive restaurant web application built with Next.js and styled using Tailwind CSS, offering a sleek design and smooth user experience.',
-    img: '/pizaniaho.png',
+    img: 'https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679458/pizaniaho_snskkr.png',
     link: 'https://pizaniahonext-app.vercel.app/',
     tools: [
       {
