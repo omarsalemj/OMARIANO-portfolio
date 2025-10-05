@@ -10,7 +10,7 @@ const myWorksData = [
     id: 1,
     title: 'Dashboard',
     desc: 'Built a responsive full-stack dashboard connected to a JSON server, featuring complete CRUD operations (create, read, update, delete) for efficient data management.',
-    img: '/dashboard.png',
+    img: 'https://drive.google.com/file/d/1QNIJYVIB0uTpUUVpCnFK1shGWsIdNG1H/view?usp=sharing',
     link: 'https://dashboard-app-react-l4a22q2lh-omar-salems-projects-94cbece3.vercel.app/',
     tools: [
       {
