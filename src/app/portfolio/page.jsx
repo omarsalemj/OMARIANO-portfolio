@@ -154,7 +154,7 @@ const PortfolioPage = () => {
               href={item.link} 
               className='md:w-[48%] 2xl:w-[31%] hover:-translate-y-3 duration-300'
             >
-              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl mb-16 bg-white/30 backdrop-blur-md border border-white/20">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl mb-16 bg-white/50 backdrop-blur-md border border-white/20">
                 {/* Image */}
                 <div className='w-full relative h-[200px]'>
                   <Image fill src={item.img} alt={item.title} className='object-contain'/>

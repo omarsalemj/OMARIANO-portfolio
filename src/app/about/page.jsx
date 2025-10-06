@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useRef } from 'react'
-import { delay, motion, useInView, useScroll, useTransform } from 'framer-motion'
+import { delay, motion, scale, useInView, useScroll, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -33,14 +33,16 @@ const AboutPage = () => {
 
   const skillsRef = useRef()
 
-  const isSkillsInView = useInView(skillsRef, {once: true, margin: '-20px'})
+  const isSkillsInView = useInView(skillsRef, {once: true})
 
   const skillsContainerVariants = {
     notViewed: {
-      x: '-100px'
+      opacity: 0,
+      scale: 0
     },
     viewed: {
-      x: 0,
+      opacity: 1,
+      scale: 1,
       transition: {
         when: 'beforeChildren',
         staggerChildren: .15
