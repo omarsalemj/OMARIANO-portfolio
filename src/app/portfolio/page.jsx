@@ -8,121 +8,121 @@ import Link from 'next/link'
 const myWorksData = [
   {
     id: 1,
-    title: 'Dashboard',
-    desc: 'Built a responsive full-stack dashboard connected to a JSON server, featuring complete CRUD operations (create, read, update, delete) for efficient data management.',
-    img: 'https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679452/dashbord_ij7fs3.png',
-    link: 'https://dashboard-app-react-l4a22q2lh-omar-salems-projects-94cbece3.vercel.app/',
+    title: "Resumind",
+    desc: "AI Resume analyzer. Track Your Applications & Resume Ratings Review your submissions and check AI-powered feedback. ",
+    img: "https://res.cloudinary.com/dc7qyltbv/image/upload/v1783697110/Capture_u1j8b8.png",
+    link: "https://ai-resume-analyzer-rho-green.vercel.app/",
     tools: [
       {
         id: 1,
-        name: 'React'
+        name: "React",
       },
       {
         id: 2,
-        name: 'Tailwind'
+        name: "Next",
       },
       {
         id: 3,
-        name: 'MUI'
+        name: "Tailwind",
       },
       {
         id: 4,
-        name: 'Sweetalert'
+        name: "Sweetalert",
       },
       {
         id: 5,
-        name: 'JSON-server'
+        name: "Puter.js",
       },
-    ]
+    ],
   },
   {
     id: 2,
-    title: 'Restaurant',
-    desc: 'Developed a modern and fully responsive restaurant web application built with Next.js and styled using Tailwind CSS, offering a sleek design and smooth user experience.',
-    img: 'https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679458/pizaniaho_snskkr.png',
-    link: 'https://pizaniahonext-app.vercel.app/',
+    title: "Dashboard",
+    desc: "Built a responsive full-stack dashboard connected to a JSON server, featuring complete CRUD operations (create, read, update, delete) for efficient data management.",
+    img: "https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679452/dashbord_ij7fs3.png",
+    link: "https://dashboard-app-react-l4a22q2lh-omar-salems-projects-94cbece3.vercel.app/",
     tools: [
       {
         id: 1,
-        name: 'React'
+        name: "React",
       },
       {
         id: 2,
-        name: 'Next'
+        name: "Tailwind",
       },
       {
         id: 3,
-        name: 'CSS3'
+        name: "MUI",
       },
       {
         id: 4,
-        name: 'Tailwind'
+        name: "Sweetalert",
       },
       {
         id: 5,
-        name: 'TypeScript'
+        name: "JSON-server",
       },
-    ]
+    ],
   },
   {
     id: 3,
-    title: 'E-commerce',
-    desc: 'e-commerce web application using React, integrating Firebase for authentication. The app also utilizes local storage for a seamless shopping experience.',
-    img: 'https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679459/ecommerce_zhftcr.png',
-    link: 'https://e-commerce-lyart-five-12.vercel.app/',
+    title: "Restaurant",
+    desc: "Developed a modern and fully responsive restaurant web application built with Next.js and styled using Tailwind CSS, offering a sleek design and smooth user experience.",
+    img: "https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679458/pizaniaho_snskkr.png",
+    link: "https://pizaniahonext-app.vercel.app/",
     tools: [
       {
         id: 1,
-        name: 'React'
+        name: "React",
       },
       {
         id: 2,
-        name: 'Tailwind'
+        name: "Next",
       },
       {
         id: 3,
-        name: 'CSS3'
+        name: "CSS3",
       },
       {
         id: 4,
-        name: 'Sweetalert'
+        name: "Tailwind",
       },
       {
         id: 5,
-        name: 'Firebase'
+        name: "TypeScript",
       },
-    ]
+    ],
   },
   {
     id: 4,
-    title: 'Demo',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quibusdam earum ipsa vero sed fugiat error iure',
-    img: 'https://images.pexels.com/photos/33754560/pexels-photo-33754560.jpeg',
-    link: '#',
+    title: "E-commerce",
+    desc: "e-commerce web application using React, integrating Firebase for authentication. The app also utilizes local storage for a seamless shopping experience.",
+    img: "https://res.cloudinary.com/dc7qyltbv/image/upload/v1759679459/ecommerce_zhftcr.png",
+    link: "https://e-commerce-lyart-five-12.vercel.app/",
     tools: [
       {
         id: 1,
-        name: 'React'
+        name: "React",
       },
       {
         id: 2,
-        name: 'Tailwind'
+        name: "Tailwind",
       },
       {
         id: 3,
-        name: 'MUI'
+        name: "CSS3",
       },
       {
         id: 4,
-        name: 'Sweetalert'
+        name: "Sweetalert",
       },
       {
         id: 5,
-        name: 'json-server'
+        name: "Firebase",
       },
-    ]
+    ],
   },
-]
+];
 
 const PortfolioPage = () => {
   const hireMeRef = useRef()
